@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+
+# uv
+.uv-cache/
+
+# 测试文件/输出
+*.docx
+*.txt
+!README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+
+# macOS
+.DS_Store
+
+# 其他
+*.log

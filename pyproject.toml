@@ -1,0 +1,19 @@
+[project]
+name = "docx-comment-injector"
+version = "0.1.0"
+description = "Linearize DOCX comments/revisions/highlights into plain text."
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+
+# 定义命令行入口点
+[project.scripts]
+docx-linearize = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# 告诉 hatch 把根目录的 main.py 包含进来
+[tool.hatch.build.targets.wheel]
+packages = ["."]

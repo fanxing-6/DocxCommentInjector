@@ -7,13 +7,13 @@
 无需克隆，直接从 GitHub 运行：
 
 ```bash
-uvx --from git+https://github.com/你的用户名/DocxCommentInjector docx-linearize input.docx output.md
+uvx --from git+https://github.com/fanxing-6/DocxCommentInjector docx-linearize input.docx output.md
 ```
 
 输出到 stdout：
 
 ```bash
-uvx --from git+https://github.com/你的用户名/DocxCommentInjector docx-linearize input.docx -
+uvx --from git+https://github.com/fanxing-6/DocxCommentInjector docx-linearize input.docx -
 ```
 
 ## 本地开发

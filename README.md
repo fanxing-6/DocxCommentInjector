@@ -16,6 +16,27 @@ uvx --from git+https://github.com/fanxing-6/DocxCommentInjector docx-linearize i
 uvx --from git+https://github.com/fanxing-6/DocxCommentInjector docx-linearize input.docx -
 ```
 
+### 更新到最新版本
+
+`uvx` 会缓存已安装的包，使用 `--refresh` 强制获取最新版本：
+
+```bash
+uvx --refresh --from git+https://github.com/fanxing-6/DocxCommentInjector docx-linearize input.docx output.md
+```
+
+### 指定版本
+
+```bash
+# 指定分支
+uvx --from git+https://github.com/fanxing-6/DocxCommentInjector@main docx-linearize ...
+
+# 指定 tag
+uvx --from git+https://github.com/fanxing-6/DocxCommentInjector@v1.0.0 docx-linearize ...
+
+# 指定 commit
+uvx --from git+https://github.com/fanxing-6/DocxCommentInjector@abc123f docx-linearize ...
+```
+
 ## 本地开发
 
 克隆后运行：
